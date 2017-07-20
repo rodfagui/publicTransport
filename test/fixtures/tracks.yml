@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: tracks
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  distance   :integer
+#  time       :integer
+#  client_id  :integer
+#  vehicle_id :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  distance: 1
+  time: 1
+  client: one
+  vehicle: one
+
+two:
+  name: MyString
+  distance: 1
+  time: 1
+  client: two
+  vehicle: two
